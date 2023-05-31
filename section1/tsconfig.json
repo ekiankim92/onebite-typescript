@@ -1,0 +1,4 @@
+{
+  // src directory 를 포함한곳을 compliler 시킴 
+  "include": ["src"]
+}
