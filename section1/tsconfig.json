@@ -1,4 +1,12 @@
 {
+  "compilerOptions": {
+    "target": "ESNext", // 화살표 함수 
+    "module": "CommonJS", // export 나 import 
+    "outDir": "dist", // 어느 파일로 내보낼지 
+    "strict": true, // 타입을 strict 하게 
+    "moduleDetection": "force", // 전역 변수 똑같이 사용하고 있는지
+    "skipLibCheck": true,
+  },
   // src directory 를 포함한곳을 compliler 시킴 
   "include": ["src"]
 }

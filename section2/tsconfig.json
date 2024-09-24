@@ -1,0 +1,12 @@
+{
+    "include": ["src"],
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "outDir": "dist",
+        "strict": true, // strict 는 상위옵션이라서 true 이면 다른 strict 도 true
+        "moduleDetection": "force", // 하나의 모듈/파일을 개인으로
+        "skipLibCheck": true,
+        // "strictNullChecks": false
+    }
+}
