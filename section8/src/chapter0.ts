@@ -1,5 +1,5 @@
 /**
- * Indexed Assess Type 
+ * Indexed Access Type 
  * 인덱스드 엑세스 타입 
  */
 
