@@ -1,5 +1,6 @@
 import { useTodoDispatch } from "../App";
 import { Todo } from "../types";
+import _ from "lodash"
 
 interface Props extends Todo {
     onClickDelete?: (id: number) => void;
